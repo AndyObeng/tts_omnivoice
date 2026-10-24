@@ -1,0 +1,8 @@
+# torch/torchaudio are installed from the CPU-only index in the Dockerfile (see constraints.txt)
+omnivoice>=0.2.1
+fastapi>=0.110
+uvicorn[standard]>=0.29
+python-multipart>=0.0.9
+soundfile>=0.12
+numpy>=1.26
+huggingface_hub>=0.24
